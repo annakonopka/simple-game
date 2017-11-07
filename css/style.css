@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #06507F;
+    background-image: url('../images/market.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position-x: auto;
+    background-position-y: auto;
+}
+
+#board {
+  width: 640px;
+  height: 640px;
+  margin: 1rem auto;
+}
+
+#board  > div {
+  border: 1px solid #06507F;
+  background-color: #FFF100;
+  float: left;
+  width: 100%;
+  height: 100%;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.woman {
+  background-image: url('../images/woman.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bag {
+  background-image: url('../images/bag.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.invisible {
+  display: none;
+}
+
+section#score-table > #introduction {
+  width: 500px;
+  height: auto;
+  color: #002E84;
+  padding: 0.5rem;
+  background-color: #FFF100;
+  border: 5px solid #BB251F;
+  border-radius: 5px;
+  margin: 1em auto;
+}
+
+section > div > h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    text-transform: uppercase;
+}
+
+section > div > h3 > .score {
+    color: red;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+.bground {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #06507F;
+  border-radius: 5px;
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #FFF100;
+    border: 5px solid #BB251F;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bground .circle h1 {
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #06507F;
+}
+
+.bground .circle h1 span {
+    color: #BB251F;
+}
